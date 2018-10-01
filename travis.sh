@@ -59,7 +59,7 @@ if ! [ "$IN_DOCKER" ]; then
     if [ $return_value -eq 0 ]; then
         echo "$DOCKER_IMAGE container finished successfully"
         HIT_ENDOFSCRIPT=true;
-        exit 0
+        # exit 0
     fi
     echo "$DOCKER_IMAGE container finished with errors"
     exit 1 # error
