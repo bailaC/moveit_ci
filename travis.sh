@@ -198,5 +198,5 @@ done
 travis_run catkin_test_results
 
 echo "Travis script has finished successfully"
-HIT_ENDOFSCRIPT=true
+# HIT_ENDOFSCRIPT=true
 # exit 0
